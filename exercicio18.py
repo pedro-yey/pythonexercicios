@@ -4,7 +4,7 @@
 # Primeiro = Ana
 # Último: Souza
 
-nome = "Pedro Lucas Dantas Teles"
+nome = input('Qual seu nome completo? ')
 nome = nome.split()
 print(nome)
 print("Primeiro = {}".format(nome[0]))
